@@ -10,4 +10,10 @@ describe("test the non-primitive data type", () => {
       18
     ]);
   });
+  test("get full name ", () => {
+    expect(MoreFunction.getFullName("Manisha", "Basra")).toEqual({
+      first: "Manisha",
+      last: "Basra"
+    });
+  });
 });
