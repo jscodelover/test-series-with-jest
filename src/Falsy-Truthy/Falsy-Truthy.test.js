@@ -24,4 +24,13 @@ describe("CHECK FOR TRUTHY & FALSY VALUES", () => {
   `("All are Truthy value", ({ value }) => {
     expect(Falsy_Truthy.truthy(value)).toBeTruthy();
   });
+  test.each`
+    value
+    ${0}
+    ${null}
+    ${undefined}
+    ${false}
+  `("All are Falsy value", ({ value }) => {
+    expect(Falsy_Truthy.falsy(value)).toBeFalsy();
+  });
 });
