@@ -13,4 +13,7 @@ describe("CHECK FOR TRUTHY & FALSY VALUES", () => {
   test("Value is null", () => {
     expect(Falsy_Truthy.isNull()).toBeNull();
   });
+  test("Value is undefined", () => {
+    expect(Falsy_Truthy.isUndefined).toBeUndefined();
+  });
 });
