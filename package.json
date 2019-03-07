@@ -13,5 +13,8 @@
     "basic-testing"
   ],
   "author": "JsCodeLover",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
 }
