@@ -4,7 +4,8 @@
   "description": "learning how to test javascript codes",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watchAll"
   },
   "keywords": [
     "jest",
