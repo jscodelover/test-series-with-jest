@@ -10,7 +10,8 @@ const MoreFunction = {
   },
   userArray(array) {
     return [...array, "john", "sam"];
-  }
+  },
+  handler: "jscodelove"
 };
 
 module.exports = MoreFunction;

@@ -21,4 +21,7 @@ describe("test the non-primitive data type", () => {
       MoreFunction.userArray(["sam2", "max", "andrew", "hurbert"])
     ).toContain("sam");
   });
+  test("given string should have 'code' substring", () => {
+    expect(MoreFunction.handler).toMatch(/code/i);
+  });
 });
