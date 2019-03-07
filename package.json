@@ -1,0 +1,17 @@
+{
+  "name": "learning-jest",
+  "version": "1.0.0",
+  "description": "learning how to test javascript codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "javascript",
+    "basic-testing"
+  ],
+  "author": "JsCodeLover",
+  "license": "ISC"
+}
