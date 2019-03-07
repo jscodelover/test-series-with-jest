@@ -16,4 +16,12 @@ describe("CHECK FOR TRUTHY & FALSY VALUES", () => {
   test("Value is undefined", () => {
     expect(Falsy_Truthy.isUndefined).toBeUndefined();
   });
+  test.each`
+    value
+    ${1}
+    ${true}
+    ${"any"}
+  `("All are Truthy value", ({ value }) => {
+    expect(Falsy_Truthy.truthy(value)).toBeTruthy();
+  });
 });
