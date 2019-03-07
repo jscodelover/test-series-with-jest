@@ -16,4 +16,9 @@ describe("test the non-primitive data type", () => {
       last: "Basra"
     });
   });
+  test("array[...passsedArray, john, sam] contain user sam", () => {
+    expect(
+      MoreFunction.userArray(["sam2", "max", "andrew", "hurbert"])
+    ).toContain("sam");
+  });
 });

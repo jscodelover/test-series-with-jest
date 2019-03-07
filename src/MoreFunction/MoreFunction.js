@@ -7,6 +7,9 @@ const MoreFunction = {
       first: "Manisha",
       last: "Basra"
     };
+  },
+  userArray(array) {
+    return [...array, "john", "sam"];
   }
 };
 
