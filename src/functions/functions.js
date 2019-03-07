@@ -1,9 +1,13 @@
 const functions = {
   add(num1, num2) {
     return num1 + num2;
+  },
+  subtract(num1, num2) {
+    return num1 - num2;
   }
 };
 
 module.exports = {
-  add: functions.add
+  add: functions.add,
+  subtract: functions.subtract
 };
